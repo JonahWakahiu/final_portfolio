@@ -63,7 +63,7 @@ const Contact = () => {
 
       <div className="contact_container container grid">
         <div className="contact_data">
-          <h3 className="contact_title">Don't be shy!</h3>
+          <h3 className="contact_title">Let's connect 😊!</h3>
 
           <p className="contact_desc">
             feel free to get in touch with me. I am always open to discussing
