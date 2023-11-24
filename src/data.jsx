@@ -355,8 +355,10 @@ export const portfolio = [
 ];
 
 export const contactSchema = Yup.object().shape({
-  name: Yup.string().required("Required"),
+  name: Yup.string().required("Required").trim().min(2).max(50),
   email: Yup.string().email("Invalid email").required("Required"),
+  subject: Yup.string().required("Required").trim().min(5).max(100),
+  message: Yup.string().required("Required").trim().min(10).max(1000),
 });
 
 export const themes = [
@@ -390,7 +392,7 @@ export const themes = [
   },
   {
     id: 8,
-    color: "greenyellow",
+    color: "midnightblue",
   },
   {
     id: 9,
@@ -398,6 +400,6 @@ export const themes = [
   },
   {
     id: 10,
-    color: "hsl(19, 96%, 52%",
+    color: "orangered",
   },
 ];

@@ -63,6 +63,7 @@
   .form_input-group {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 24px;
+    row-gap: 0px;
   }
 
   .form_input-group .form_input-div:last-child {
@@ -70,7 +71,7 @@
   }
 
   .form_input-div {
-    margin-bottom: 24px;
+    margin-bottom: 15px;
   }
 }
 

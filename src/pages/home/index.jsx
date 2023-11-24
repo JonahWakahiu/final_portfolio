@@ -5,13 +5,13 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <section className="home section grid">
-      <img src={Profile} alt="" className="home_img" />
+    <section className="home grid">
+      <img src={Profile} alt={Profile} className="home_img" />
 
       <div className="home_content">
         <div className="home_data">
           <h1 className="home_title">
-            <span>I'm Jonah Wakahiu.</span>
+            <span>I'm Jonah Wakahiu. </span>
             Web designer
           </h1>
 
