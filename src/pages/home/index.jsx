@@ -6,13 +6,13 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="home section grid">
-      <img src={Profile} alt={Profile} className="home_img" />
+      <img src={Profile} alt="" className="home_img" />
 
       <div className="home_content">
         <div className="home_data">
           <h1 className="home_title">
-            I'm Jonah Wakahiu.
-            <span>Web designer</span>
+            <span>I'm Jonah Wakahiu.</span>
+            Web designer
           </h1>
 
           <p className="home_desc">
