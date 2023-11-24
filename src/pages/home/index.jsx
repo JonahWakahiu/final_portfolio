@@ -23,7 +23,7 @@ const Home = () => {
           </p>
 
           <Link to="/about" className="button">
-            More About Me{" "}
+            More About Me
             <span className="button_icon">
               <FaArrowRight />
             </span>

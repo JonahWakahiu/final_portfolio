@@ -5,12 +5,14 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
+import Theme from "./components/theme";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Theme />
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />

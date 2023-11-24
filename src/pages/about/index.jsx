@@ -4,6 +4,7 @@ import Stats from "../../components/Stats";
 import Skills from "../../components/Skills";
 import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
+import JonahCv from "../../assets/JonahCv.pdf";
 import "./about.css";
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
             <ul className="info_list grid">
               <Info />
             </ul>
-            <a href="" className="button">
+            <a href={JonahCv} className="button" download>
               Download Cv
               <span className="button_icon">
                 <FaDownload />

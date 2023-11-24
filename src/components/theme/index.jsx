@@ -48,7 +48,7 @@ const Theme = () => {
   }, [theme]);
 
   useEffect(() => {
-    document.documentElement.style.setProperty("--first-color", color);
+    document.documentElement.style.setProperty("--main-color", color);
     localStorage.setItem("color", color);
   }, [color]);
   return (
