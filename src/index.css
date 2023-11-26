@@ -233,10 +233,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  .home_img {
-    height: 200px;
-    width: 200px;
-  }
   .home_content {
     margin-block: auto;
     text-align: left;
@@ -253,10 +249,6 @@
   .info_title {
     display: block;
     margin-bottom: 4px;
-  }
-
-  .stats_box {
-    padding: 15px 15px 25px 20px;
   }
 }
 

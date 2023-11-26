@@ -56,33 +56,29 @@ export const personalInfo = [
     title: "Last Name : ",
     desc: "Wakahiu",
   },
+
   {
     id: 3,
-    title: "Age : ",
-    desc: "Jonah Wakahiu",
-  },
-  {
-    id: 4,
     title: "Nationality : ",
     desc: "Kenyan",
   },
   {
-    id: 5,
+    id: 4,
     title: "Email : ",
     desc: "jonah.wakahiumaina@gmail.com",
   },
   {
-    id: 6,
+    id: 5,
     title: "Phone Number : ",
     desc: "+254 796 893524",
   },
   {
-    id: 7,
+    id: 6,
     title: "linkedin : ",
     desc: "Jonah Wakahiu",
   },
   {
-    id: 8,
+    id: 7,
     title: "languages : ",
     desc: "English, Kiswahili",
   },

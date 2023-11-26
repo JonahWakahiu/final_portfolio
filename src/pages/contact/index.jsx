@@ -55,6 +55,7 @@ const Contact = () => {
         }
       );
   };
+
   return (
     <section className="contact section">
       <h2 className="section_title">
@@ -82,7 +83,7 @@ const Contact = () => {
               <FaPhoneSquareAlt className="info_icon" />
 
               <span className="info_title">Call me</span>
-              <h4 className="info_desc">+254 796893524</h4>
+              <h4 className="info_desc">0796893524</h4>
             </div>
           </div>
 
@@ -117,7 +118,7 @@ const Contact = () => {
             </a>
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=0796893524"
+              href="https://api.whatsapp.com/send?phone=+254748454513"
               className="contact_social-links"
             >
               <FaWhatsapp />

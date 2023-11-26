@@ -14,7 +14,7 @@ const getLocalStorageColor = () => {
 };
 
 const getLocalStorageTheme = () => {
-  let theme = "light-theme";
+  let theme = "dark-theme";
   if (localStorage.getItem("theme")) {
     theme = localStorage.getItem("theme");
   }
@@ -22,7 +22,7 @@ const getLocalStorageTheme = () => {
 };
 
 const Theme = () => {
-  const [showSwitcher, setShowSwitcher] = useState(true);
+  const [showSwitcher, setShowSwitcher] = useState(false);
   const [color, setColor] = useState(getLocalStorageColor());
   const [theme, setTheme] = useState(getLocalStorageTheme());
 
